@@ -9,7 +9,7 @@ function App() {
     // <div className="App">
     //   Welcome to Digital Business
     // </div>
-    <div className='dashboard'>
+    <div id="dashboard">
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
