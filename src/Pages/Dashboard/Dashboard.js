@@ -47,7 +47,7 @@ const Dashboard = () => {
         <Statistics />
       </div>
 
-      {/* <Orders /> */}
+      <Orders />
     </div>
   );
 };
