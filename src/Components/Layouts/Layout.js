@@ -10,7 +10,7 @@ const Layout = () => {
     return (
         <div className={css.container}>
             <Sidebar />
-            
+
             {pathname === "/" && <Navigate to="/dashboard" />}
 
             <div className={css.dashboard}>
@@ -28,7 +28,7 @@ const Layout = () => {
                         <input type="text" placeholder="Enter here" />
                     </div>
                     <div className={css.profile}>
-                        <img src="./profile.jpg" alt="" />
+                        <img src="./profile.png" alt="" />
 
                         <div className={css.details}>
                             <span>Arkashish Sutradhar</span>
